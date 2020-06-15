@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`语言选择组件 语言选择快照 1`] = `
+<el-dropdown-stub
+  class="international"
+  hideonclick="true"
+  hidetimeout="150"
+  msg="中文 English"
+  placement="bottom-end"
+  showtimeout="250"
+  size=""
+  tabindex="0"
+  trigger="click"
+  visiblearrow="true"
+>
+  <div>
+    <svg-icon-stub
+      classname="international-icon"
+      iconclass="language"
+    />
+  </div>
+   
+  <el-dropdown-menu-stub
+    appendtobody="true"
+    arrowoffset="0"
+    boundariespadding="5"
+    offset="0"
+    placement="bottom"
+    popperoptions="[object Object]"
+    transformorigin="true"
+    visiblearrow="true"
+  >
+    <el-dropdown-item-stub
+      command="zh"
+      disabled="true"
+    >
+      中文
+    </el-dropdown-item-stub>
+     
+    <el-dropdown-item-stub
+      command="en"
+    >
+      English
+    </el-dropdown-item-stub>
+  </el-dropdown-menu-stub>
+</el-dropdown-stub>
+`;

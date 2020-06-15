@@ -1,0 +1,16 @@
+// 统一载入会有问题 所以这个样式需要单独引入
+.colname {
+  div,p{
+    .el-button{
+      margin-left: 10px;
+    }
+    .el-input {
+      width: 20%;
+    }
+  }
+  p {
+    .el-select {
+      width: 20%;
+    }
+  }
+}

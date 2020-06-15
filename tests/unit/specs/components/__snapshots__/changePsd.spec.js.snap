@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChangePsd 生成快照 1`] = `
+<div
+  class="change_container"
+  passwordform="[object Object]"
+>
+  <el-card-stub
+    class="card"
+  >
+    <h3>
+      修改密码
+    </h3>
+     
+    <div
+      class="form_box"
+    >
+      <el-form-stub
+        labelposition="left"
+        labelsuffix=""
+        labelwidth="80px"
+        model="[object Object]"
+        rules="[object Object]"
+        showmessage="true"
+        validateonrulechange="true"
+      >
+        <el-form-item-stub
+          inlinemessage=""
+          label="旧密码"
+          prop="oldPass"
+          showmessage="true"
+        >
+          <el-input-stub
+            autocomplete="off"
+            class="new-input"
+            showpassword="true"
+            type="password"
+            validateevent="true"
+            value=""
+          />
+        </el-form-item-stub>
+         
+        <el-form-item-stub
+          inlinemessage=""
+          label="新密码"
+          prop="newPass"
+          showmessage="true"
+        >
+          <el-input-stub
+            autocomplete="off"
+            class="new-input"
+            showpassword="true"
+            type="password"
+            validateevent="true"
+            value=""
+          />
+        </el-form-item-stub>
+         
+        <el-form-item-stub
+          inlinemessage=""
+          label="确认密码"
+          prop="confirmPass"
+          showmessage="true"
+        >
+          <el-input-stub
+            autocomplete="off"
+            class="new-input"
+            showpassword="true"
+            type="password"
+            validateevent="true"
+            value=""
+          />
+        </el-form-item-stub>
+      </el-form-stub>
+       
+      <div
+        class="save_button"
+      >
+        <el-button-stub
+          class="btn"
+          icon=""
+          nativetype="button"
+          type="primary"
+        >
+          保存
+        </el-button-stub>
+      </div>
+    </div>
+  </el-card-stub>
+</div>
+`;

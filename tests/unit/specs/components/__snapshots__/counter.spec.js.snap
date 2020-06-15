@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter.vue 渲染Counter组件 1`] = `
+<div>
+  <div>
+    0
+  </div>
+   
+  <button>
+    加
+  </button>
+   
+  <button>
+    减
+  </button>
+   
+  <button>
+    重置
+  </button>
+</div>
+`;

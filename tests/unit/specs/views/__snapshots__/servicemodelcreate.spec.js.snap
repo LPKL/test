@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ServiceModelCreate.vue snapshot 1`] = `
+<div
+  class="app_container"
+>
+  <div
+    class="el-dialog__wrapper addDialog"
+    style="z-index: 2013;"
+  >
+    <div
+      aria-label="添加服务"
+      aria-modal="true"
+      class="el-dialog"
+      role="dialog"
+      style="margin-top: 15vh;"
+    >
+      <div
+        class="el-dialog__header"
+      >
+        <span
+          class="el-dialog__title"
+        >
+          添加服务
+        </span>
+        <!---->
+      </div>
+      <div
+        class="el-dialog__body"
+      >
+        <form
+          class="el-form el-form--label-right"
+        >
+          <div
+            class="el-form-item is-success is-required"
+          >
+            <label
+              class="el-form-item__label"
+              for="name"
+              style="width: 100px;"
+            >
+              服务名称
+            </label>
+            <div
+              class="el-form-item__content"
+              style="margin-left: 100px;"
+            >
+              <div
+                class="el-input el-input--suffix"
+                style="width: 256px;"
+              >
+                <!---->
+                <input
+                  autocomplete="off"
+                  class="el-input__inner"
+                  type="text"
+                />
+                <!---->
+                <!---->
+                <!---->
+                <!---->
+              </div>
+              <!---->
+            </div>
+          </div>
+           
+          <div
+            class="el-form-item"
+          >
+            <label
+              class="el-form-item__label"
+              for="description"
+              style="width: 100px;"
+            >
+              描述
+            </label>
+            <div
+              class="el-form-item__content"
+              style="margin-left: 100px;"
+            >
+              <div
+                class="el-textarea el-input--suffix"
+                style="width: 324px;"
+              >
+                <textarea
+                  autocomplete="off"
+                  class="el-textarea__inner"
+                  rows="2"
+                  style="min-height: -4px;"
+                />
+                <!---->
+              </div>
+              <!---->
+            </div>
+          </div>
+           
+          <div
+            class="el-form-item is-success is-required"
+          >
+            <label
+              class="el-form-item__label"
+              for="model_id"
+              style="width: 100px;"
+            >
+              模型
+            </label>
+            <div
+              class="el-form-item__content"
+              style="margin-left: 100px;"
+            >
+              <div
+                class="el-select new-input"
+                placeholde="请选择"
+              >
+                <!---->
+                <div
+                  class="el-input el-input--suffix"
+                >
+                  <!---->
+                  <input
+                    autocomplete="off"
+                    class="el-input__inner"
+                    placeholder="请选择"
+                    readonly="readonly"
+                    type="text"
+                  />
+                  <!---->
+                  <span
+                    class="el-input__suffix"
+                  >
+                    <span
+                      class="el-input__suffix-inner"
+                    >
+                      <i
+                        class="el-select__caret el-input__icon el-icon-arrow-up"
+                      />
+                      <!---->
+                      <!---->
+                      <!---->
+                      <!---->
+                      <!---->
+                    </span>
+                    <i
+                      class="el-input__icon el-input__validateIcon el-icon-circle-check"
+                    />
+                  </span>
+                  <!---->
+                  <!---->
+                </div>
+                <div
+                  class="el-select-dropdown el-popper"
+                  style="display: none;"
+                >
+                  <div
+                    class="el-scrollbar"
+                    style="display: none;"
+                  >
+                    <div
+                      class="el-select-dropdown__wrap el-scrollbar__wrap el-scrollbar__wrap--hidden-default"
+                    >
+                      <ul
+                        class="el-scrollbar__view el-select-dropdown__list"
+                      />
+                    </div>
+                    <div
+                      class="el-scrollbar__bar is-horizontal"
+                    >
+                      <div
+                        class="el-scrollbar__thumb"
+                        style="transform: translateX(0%); webkit-transform: translateX(0%);"
+                      />
+                    </div>
+                    <div
+                      class="el-scrollbar__bar is-vertical"
+                    >
+                      <div
+                        class="el-scrollbar__thumb"
+                        style="transform: translateY(0%); webkit-transform: translateY(0%);"
+                      />
+                    </div>
+                  </div>
+                  <p
+                    class="el-select-dropdown__empty"
+                  >
+                    
+          无数据
+        
+                  </p>
+                </div>
+              </div>
+              <!---->
+            </div>
+          </div>
+           
+          <div
+            class="el-form-item"
+          >
+            <label
+              class="el-form-item__label"
+              for="enabled"
+              style="width: 100px;"
+            >
+              是否发布
+            </label>
+            <div
+              class="el-form-item__content"
+              style="margin-left: 100px;"
+            >
+              <label
+                aria-checked="true"
+                class="el-radio is-checked"
+                role="radio"
+                tabindex="0"
+              >
+                <span
+                  class="el-radio__input is-checked"
+                >
+                  <span
+                    class="el-radio__inner"
+                  />
+                  <input
+                    aria-hidden="true"
+                    class="el-radio__original"
+                    tabindex="-1"
+                    type="radio"
+                    value="true"
+                  />
+                </span>
+                <span
+                  class="el-radio__label"
+                >
+                  是
+                  <!---->
+                </span>
+              </label>
+               
+              <label
+                class="el-radio"
+                role="radio"
+                tabindex="0"
+              >
+                <span
+                  class="el-radio__input"
+                >
+                  <span
+                    class="el-radio__inner"
+                  />
+                  <input
+                    aria-hidden="true"
+                    class="el-radio__original"
+                    tabindex="-1"
+                    type="radio"
+                    value="false"
+                  />
+                </span>
+                <span
+                  class="el-radio__label"
+                >
+                  否
+                  <!---->
+                </span>
+              </label>
+              <!---->
+            </div>
+          </div>
+        </form>
+         
+      </div>
+      <div
+        class="el-dialog__footer"
+      >
+        <div
+          class="dialog-footer"
+        >
+          <button
+            class="el-button cancel el-button--default"
+            type="button"
+          >
+            <!---->
+            <!---->
+            <span>
+              取消
+            </span>
+          </button>
+           
+          <button
+            class="el-button el-button--primary"
+            type="button"
+          >
+            <!---->
+            <!---->
+            <span>
+              确定
+            </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

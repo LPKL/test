@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`index.vue snapshot 1`] = `
+<div
+  class="app_container"
+  localvue="function VueComponent (options) {
+      this._init(options);
+    }"
+  mocks="[object Object]"
+  stubs="el-button"
+>
+  <el-header-stub
+    class="filter_header"
+    height="60px"
+  >
+    <div
+      class="service-model-filter"
+    >
+      <el-input-stub
+        autocomplete="off"
+        class="prepend-select-input"
+        placeholder="请输入对应名称"
+        suffixicon="el-icon-search"
+        type="text"
+        validateevent="true"
+        value=""
+      >
+        <el-select-stub
+          autocomplete="off"
+          class="el-prepend-select"
+          multiplelimit="0"
+          placeholder="请选择"
+          popperappendtobody="true"
+          value="serviceName"
+          valuekey="value"
+        >
+          <el-option-stub
+            label="服务名称"
+            value="serviceName"
+          />
+           
+          <el-option-stub
+            label="模型名称"
+            value="modelName"
+          />
+        </el-select-stub>
+      </el-input-stub>
+       
+      <el-select-stub
+        autocomplete="off"
+        class="normal-select"
+        filterable="true"
+        multiplelimit="0"
+        placeholder="关联模型"
+        popperappendtobody="true"
+        value="-1"
+        valuekey="value"
+      >
+        <el-option-stub
+          label="全部"
+          value="-1"
+        />
+        <el-option-stub
+          label="发布服务"
+          value="1"
+        />
+        <el-option-stub
+          label="停用服务"
+          value="0"
+        />
+      </el-select-stub>
+       
+      <div
+        class="header-btn_creat"
+      >
+        <el-button-stub
+          icon="el-icon-plus"
+          nativetype="button"
+          type="default"
+        >
+          添加服务
+        </el-button-stub>
+      </div>
+    </div>
+  </el-header-stub>
+   
+  <el-main-stub
+    class="main_container"
+  >
+    <div
+      class="main-top-btn"
+    >
+      <el-button-stub
+        class="main-top-btn-disabled"
+        icon=""
+        nativetype="button"
+        plain="true"
+        size="small"
+        type="default"
+      >
+        <svg-icon-stub
+          class="service_batch_on_d"
+          classname=""
+          iconclass="service_batch_on_d"
+        />
+         
+        <svg-icon-stub
+          class="service_batch_on_h"
+          classname=""
+          iconclass="service_batch_on_h"
+        />
+         
+        <svg-icon-stub
+          class="service_batch_on_c"
+          classname=""
+          iconclass="service_batch_on_c"
+        />
+        
+        批量发布
+      
+      </el-button-stub>
+       
+      <el-button-stub
+        class="main-top-btn-disabled"
+        icon=""
+        nativetype="button"
+        plain="true"
+        size="small"
+        type="default"
+      >
+        <svg-icon-stub
+          class="service_batch_off_d"
+          classname=""
+          iconclass="service_batch_off_d"
+        />
+         
+        <svg-icon-stub
+          class="service_batch_off_h"
+          classname=""
+          iconclass="service_batch_off_h"
+        />
+         
+        <svg-icon-stub
+          class="service_batch_off_c"
+          classname=""
+          iconclass="service_batch_off_c"
+        />
+        
+        批量停用
+      
+      </el-button-stub>
+       
+      <el-button-stub
+        class="main-top-btn-disabled"
+        icon=""
+        nativetype="button"
+        plain="true"
+        size="small"
+        type="default"
+      >
+        <svg-icon-stub
+          class="service_batch_update_d"
+          classname=""
+          iconclass="service_batch_update_d"
+        />
+         
+        <svg-icon-stub
+          class="service_batch_update_h"
+          classname=""
+          iconclass="service_batch_update_h"
+        />
+         
+        <svg-icon-stub
+          class="service_batch_update_c"
+          classname=""
+          iconclass="service_batch_update_c"
+        />
+        
+        批量更新
+      
+      </el-button-stub>
+    </div>
+     
+    <el-divider-stub
+      contentposition="center"
+      direction="horizontal"
+    />
+     
+    <div
+      style="height: 630px;"
+    >
+      <smodel-table-stub
+        datalist=""
+        page="1"
+        showmodeldetaildata="[object Object]"
+        tableloading="true"
+      />
+    </div>
+     
+    <div
+      class="pagination-container"
+    >
+      <el-pagination-stub
+        currentpage="1"
+        layout="total, prev, pager, next, jumper"
+        pagercount="7"
+        pagesize="10"
+        pagesizes="10,20,30,40,50,100"
+        total="0"
+      />
+    </div>
+  </el-main-stub>
+   
+  <smodel-create-stub />
+   
+  <smodel-edit-stub
+    toeditdata="[object Object]"
+  />
+   
+  <smodel-client-stub
+    clientdata="[object Object]"
+  />
+   
+  <smodel-test-stub
+    modelid="0"
+  />
+</div>
+`;

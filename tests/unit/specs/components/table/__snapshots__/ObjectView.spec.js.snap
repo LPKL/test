@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ObjectView.vue 生成快照 1`] = `
+<div
+  style="width: 400px; height: 400px; display: inline-block; overflow-y: scroll; position: relative;"
+>
+  <div
+    style="position: absolute; bottom: 6px; width: 100%;"
+  >
+    <el-row-stub
+      align="top"
+      class="tablerow"
+      justify="start"
+      tag="div"
+    >
+      <el-col-stub
+        span="6"
+        tag="div"
+      >
+        <div
+          style="border-right: 1px solid #ccc; padding: 10px 5px;"
+        >
+          name1
+        </div>
+      </el-col-stub>
+       
+      <el-col-stub
+        span="18"
+        tag="div"
+      >
+        <div
+          style="padding: 10px 5px;"
+        >
+          abc
+        </div>
+      </el-col-stub>
+    </el-row-stub>
+    <el-row-stub
+      align="top"
+      class="tablerow"
+      justify="start"
+      tag="div"
+    >
+      <el-col-stub
+        span="6"
+        tag="div"
+      >
+        <div
+          style="border-right: 1px solid #ccc; padding: 10px 5px;"
+        >
+          name2
+        </div>
+      </el-col-stub>
+       
+      <el-col-stub
+        span="18"
+        tag="div"
+      >
+        <div
+          style="padding: 10px 5px;"
+        >
+          3dtest
+        </div>
+      </el-col-stub>
+    </el-row-stub>
+  </div>
+</div>
+`;

@@ -1,0 +1,261 @@
+.layout-left {
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin: 0;
+  background-color: #EFEFEF;
+}
+
+.work_panel {
+  position: relative;
+  height:100%;
+}
+.abs {
+  position: absolute;
+  width: 200px;
+  z-index: 10000;
+  background-color: rgba(227, 244, 255, .9);
+  cursor: move !important;
+}
+/* 拖拽节点模板 */
+.pane-node-content {
+  border: 0.5px solid #3d65c9;
+  border-radius: 2px;
+  cursor: move;
+  line-height: 26px;
+  overflow: hidden;
+  display: inline-block;
+  white-space: nowrap;
+  z-index: -1px;
+  background-color: white;
+  &:hover{
+    /*background-color: #f3f6fc;*/
+    box-shadow: #3d65c9 0px 0px 4px;
+  }
+  .miconfont {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: center;
+    color: #3d65c9aa;
+  }
+  .status {
+    width: 24px;
+    border-radius: 50%;
+    color: #ffa23d;
+    float: right;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+.source-point-hover-class {
+  cursor: crosshair;
+}
+.target-point svg {
+  overflow: visible;
+}
+.target-point-hover-class {
+  cursor: default;
+}
+.connector-hover-class {
+  cursor: default !important;
+}
+.inline {
+  display: inline;
+}
+.in-hover {
+  fill: #000;
+}
+.hide {
+  border: 1px solid red;
+}
+.jtk-miniview-panner {
+  border: 0;
+}
+.controls {
+  position: absolute;
+  top: 32px;
+  z-index: 3;
+  left: 32px;
+  background-color: hsla(0, 0%, 96%, .9);
+  border: 1px solid hsla(0, 0%, 93%, .9);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .01);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .01);
+  border-radius: 3px;
+  color: #333;
+  padding-right: 5px;
+  font-size: 18px;
+  i {
+    list-style: none;
+    line-height: 32px;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 5px;
+  }
+}
+.miniview {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  z-index: 3;
+}
+.draggable {
+  border: 1px solid #3d65c96b;
+  border-left: 4px solid #3d65c9aa;
+  display: inline-block;
+  cursor: move;
+  position: absolute;
+  width: 160px;
+  text-align: left;
+}
+.guide {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#guide-h {
+  border-top: 1px dashed #55f;
+  width: 100%;
+}
+#guide-v {
+  border-left: 1px dashed #55f;
+  height: 100%;
+}
+
+
+$pgBorder:#e4e7ed;
+$spacing:10px;
+$bspacing:9px;
+$elementGap:24px;
+$boxLeft:48px;
+
+/deep/ .jtk-endpoint.jtk-draggable.jtk-droppable{
+  z-index: 20;
+}
+.ztree{
+  /*height: 700px;*/
+  /*overflow-y: scroll;*/
+  overflow-x: hidden;
+}
+#main_layout{
+  -moz-user-select:none;
+  -webkit-user-select:none;
+  user-select:none;
+  .el-aside,.el-header{
+    margin-top: $spacing;
+    border-radius: 5px;
+  }
+  .el-header{
+    background-color: #ffffff;
+    margin: $spacing $spacing 0 $spacing;
+  }
+  .el-main{
+    position: relative;
+    padding:2px $spacing 5px $spacing;
+
+    #footerMsg{
+      left: $bspacing;
+      right: $bspacing;
+      bottom: 0;
+      position:absolute;
+      background-color: #fff;
+    }
+  }
+  .el-aside{
+    background-color: #fff;
+    &:first-child{
+      width:200px !important;
+      margin-left: $spacing;
+    }
+    &:last-child{
+      width: 250px;
+      margin-right: $spacing;
+      border-right: none;
+    }
+  }
+}
+.pgTable{
+  ul{
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    li{
+      display: inline-block;
+      width: 50%;
+      padding: 10px;
+      text-align: center;
+      border-bottom: 1px solid $pgBorder;
+    }
+  }
+}
+.matrix{
+  display: inline-block;
+  width: 100%;
+  max-height: 500px;
+  overflow: auto;
+  p{
+    white-space: nowrap;
+    &:first-child span{
+      border-bottom: 1px solid $pgBorder;
+    }
+    margin: 0;
+  }
+  span{
+    background-color: #bbb;
+    &:first-child{
+      border-right: 1px solid $pgBorder;
+    }
+    padding:20px 10px;
+    min-width: 13%;
+    display: inline-block;
+    text-align: center;
+  }
+}
+
+#editor{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  #main_layout{
+    flex: 1;
+  }
+}
+//穿梭框transfer中选项一项数据自成一行
+.el-transfer-panel__item.el-checkbox {
+  display: block;
+  color: #606266;
+}
+.el-icon-tickets{
+  color: #3d65c96b;
+}
+
+.check-error{
+  border: 1px solid red;
+  border-left: 4px solid red;
+  box-shadow: red 0px 0px 4px;
+}
+
+.check-error-breathe{
+  border-left: 4px solid red;
+  animation: breathe 300ms ease-out infinite alternate;
+}
+@keyframes breathe {
+  0% {
+    border-color: red;
+    box-shadow: 0 0 1px rgba(red,.1)
+  }
+  100% {
+    border-color: red;
+    box-shadow: 0 0 6px rgba(red,1)
+  }
+}
+/deep/ .el-card.is-never-shadow {
+  border: none;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom: 1px solid #f4f4f4;
+}

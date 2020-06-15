@@ -1,0 +1,33 @@
+/* 正常 */
+@font-face {
+  font-family: 'sy_normal';
+  src: url('../../static/font/SourceHanSansSC-Normal.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+/* 细体 */
+@font-face {
+  font-family: 'sy_light';
+  src: url('../../static/font/SourceHanSansSC-Light.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+/* 粗体 */
+@font-face {
+  font-family: 'sy_regular';
+  src: url('../../static/font/SourceHanSansSC-Regular.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'sy_medium';
+  src: url('../../static/font/SourceHanSansSC-Medium.otf');
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'sy_bold';
+  src: url('../../static/font/SourceHanSansSC-Medium.otf');
+  font-style: normal;
+  font-weight: normal;
+}
